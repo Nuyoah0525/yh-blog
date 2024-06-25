@@ -402,7 +402,7 @@
 
 "@vitejs/plugin-vue@^5.0.5":
   version "5.0.5"
-  resolved "https://registry.npmmirror.com/@vitejs/plugin-vue/-/plugin-vue-5.0.5.tgz#e3dc11e427d4b818b7e3202766ad156e3d5e2eaa"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-5.0.5.tgz#e3dc11e427d4b818b7e3202766ad156e3d5e2eaa"
   integrity sha512-LOjm7XeIimLBZyzinBQ6OSm3UBCNVCpLkxGC0oWmm2YPzVZoxMsdvNVimLTBzpAnR9hl/yn1SHGuRfe6/Td9rQ==
 
 "@vue/compiler-core@3.4.30":
@@ -589,18 +589,18 @@
     "@vueuse/core" "^10.11.0"
     vue "^3.4.29"
 
-"@vuepress/plugin-back-to-top@2.0.0-rc.37":
+"@vuepress/plugin-back-to-top@2.0.0-rc.37", "@vuepress/plugin-back-to-top@^2.0.0-rc.37":
   version "2.0.0-rc.37"
-  resolved "https://registry.npmmirror.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-2.0.0-rc.37.tgz#30ddd688f358e1511b0e94ed8305d1c3ccbf727e"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-2.0.0-rc.37.tgz#30ddd688f358e1511b0e94ed8305d1c3ccbf727e"
   integrity sha512-R9rAXZCYdnBADvcbY2V4xtGOHS11mAIV98MbpixP1CYGaRdOGMcp4oJwfsGqwE1Iyi/nBgBaVFHexyQFkx7Rag==
   dependencies:
     "@vuepress/helper" "2.0.0-rc.37"
     "@vueuse/core" "^10.11.0"
     vue "^3.4.29"
 
-"@vuepress/plugin-copy-code@2.0.0-rc.37":
+"@vuepress/plugin-copy-code@2.0.0-rc.37", "@vuepress/plugin-copy-code@^2.0.0-rc.37":
   version "2.0.0-rc.37"
-  resolved "https://registry.npmmirror.com/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.37.tgz#4f34cca31227e4da27fc61c6bca230df983b1dda"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-copy-code/-/plugin-copy-code-2.0.0-rc.37.tgz#4f34cca31227e4da27fc61c6bca230df983b1dda"
   integrity sha512-Z8rvn3n+SsEUmyoR2rYo/AYUPbOsJravtVh4COVqc40FT6gxlZPLlUcr4XV4Nh0ja87oZn/FubbZMkWfU8MyOA==
   dependencies:
     "@vuepress/helper" "2.0.0-rc.37"
@@ -638,9 +638,9 @@
     medium-zoom "^1.1.0"
     vue "^3.4.29"
 
-"@vuepress/plugin-nprogress@2.0.0-rc.37":
+"@vuepress/plugin-nprogress@2.0.0-rc.37", "@vuepress/plugin-nprogress@^2.0.0-rc.37":
   version "2.0.0-rc.37"
-  resolved "https://registry.npmmirror.com/@vuepress/plugin-nprogress/-/plugin-nprogress-2.0.0-rc.37.tgz#6db6566af331c4e42ef029b85faf9c8e83479a40"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-nprogress/-/plugin-nprogress-2.0.0-rc.37.tgz#6db6566af331c4e42ef029b85faf9c8e83479a40"
   integrity sha512-HEv6AzAG3U7Q5cAkeuQhMV2JhASB/2veTQ85OHNyWUzZ5yTC/Kx5PfQOb87X6LWK51eZA5vImibeZbFJ1mkE3g==
   dependencies:
     vue "^3.4.29"
@@ -659,6 +659,14 @@
   dependencies:
     "@vuepress/highlighter-helper" "2.0.0-rc.37"
     prismjs "^1.29.0"
+
+"@vuepress/plugin-search@^2.0.0-rc.37":
+  version "2.0.0-rc.37"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-2.0.0-rc.37.tgz#6bf92c39eb1266c75fc7322a44dc4f2be25c60fb"
+  integrity sha512-shFojdAi8Jj+/4w8Sgnl8UxssOWd/8HMF/5RGqa3rgKxNiCCzndLag8OJmRE1xbMnkdKvtPlA0UoOgG9qDom9g==
+  dependencies:
+    chokidar "^3.6.0"
+    vue "^3.4.29"
 
 "@vuepress/plugin-seo@2.0.0-rc.37":
   version "2.0.0-rc.37"
@@ -1548,7 +1556,7 @@ run-parallel@^1.1.9:
 
 sass@^1.77.6:
   version "1.77.6"
-  resolved "https://registry.npmmirror.com/sass/-/sass-1.77.6.tgz#898845c1348078c2e6d1b64f9ee06b3f8bd489e4"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.77.6.tgz#898845c1348078c2e6d1b64f9ee06b3f8bd489e4"
   integrity sha512-ByXE1oLD79GVq9Ht1PeHWCPMPB8XHpBuz1r85oByKHjZY6qV6rWnQovQzXJXuQ/XyE1Oj3iPk3lo28uzaRA2/Q==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
