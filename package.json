@@ -2,6 +2,7 @@
   "name": "vuepress2",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "author": "zhangyh <1056406288@qq.com>",
   "license": "MIT",
   "scripts": {
@@ -12,10 +13,11 @@
     "@vitejs/plugin-vue": "^5.0.5",
     "@vuepress/bundler-vite": "^2.0.0-rc.14",
     "@vuepress/plugin-back-to-top": "^2.0.0-rc.37",
+    "@vuepress/plugin-comment": "^2.0.0-rc.37",
     "@vuepress/plugin-copy-code": "^2.0.0-rc.37",
     "@vuepress/plugin-nprogress": "^2.0.0-rc.37",
     "@vuepress/plugin-search": "^2.0.0-rc.37",
     "@vuepress/theme-default": "^2.0.0-rc.37",
-    "vuepress": "^2.0.0-rc.14"
+    "vuepress": "2.0.0-rc.14"
   }
 }
